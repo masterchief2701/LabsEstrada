@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".PrincipalActivity">
+
+    <TextView
+        android:id="@+id/bienvenidoView"
+        android:layout_width="250dp"
+        android:layout_height="55dp"
+        android:layout_marginStart="171dp"
+        android:layout_marginTop="168dp"
+        android:layout_marginEnd="171dp"
+        android:layout_marginBottom="544dp"
+        android:text="Bienvenido"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:textSize="45dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.502"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <ImageView
+        android:id="@+id/icon_es_View"
+        android:layout_width="165dp"
+        android:layout_height="158dp"
+        android:layout_marginStart="123dp"
+        android:layout_marginTop="76dp"
+        android:layout_marginEnd="123dp"
+        app:layout_constraintBottom_toTopOf="@+id/load_textView"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/bienvenidoView"
+        app:layout_constraintVertical_bias="0.145"
+        app:srcCompat="@mipmap/ic_ionc" />
+
+    <TextView
+        android:id="@+id/load_textView"
+        android:layout_width="109dp"
+        android:layout_height="79dp"
+        android:layout_marginStart="150dp"
+        android:layout_marginTop="53dp"
+        android:layout_marginEnd="150dp"
+        android:layout_marginBottom="184dp"
+        android:text="..."
+        android:textAlignment="center"
+        android:textSize="50dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/icon_es_View" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
